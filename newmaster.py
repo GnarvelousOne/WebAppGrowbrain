@@ -12,21 +12,21 @@ master.title("Dr. Parvo's Marvelous Growbrain")
 
 screen_width = master.winfo_screenwidth()
 screen_height = master.winfo_screenheight()
-slider_font = 18
-slider_width = 80
+slider_font = 12
+slider_width = 60
 slider_color = "SteelBlue1"
 slider_trough_color = "steelblue"
 slider_text_color = "black"
 slider_border = 5
-#slider_length = 120
+slider_length = int(screen_width * .55)
 slider_relief = RIDGE
-button_width = 39
-button_height =8
+button_width = int(screen_width * .015)
+button_height =6
 button_border = 3
 button_font = '-weight bold'
 welcome_height = 6
-welcome_width = 136
-welcome_font = "57"
+welcome_width = int(screen_width * .055)
+#welcome_font = 0
 welcome_background = "Steelblue3"
 welcome_border = 6
 welcome_relief = RAISED
@@ -175,27 +175,27 @@ t = StringVar()
 t.set("Welcome! Drag the sliders to set values. Tap to the left or right of "
 "the sliders to fine tune the values.")
 
-welcome = Label(master, bg=welcome_background, bd=welcome_border,
-relief=welcome_relief,
-width=welcome_width, height=welcome_height, font=welcome_font, textvariable=t)
+welcome = Label(master, font=16, wraplength=int(screen_width * .35),
+bg=welcome_background, bd=welcome_border, relief=welcome_relief,
+width=welcome_width, height=welcome_height, textvariable=t)
 welcome.grid(column=1, row=1, columnspan=3)
 
 on = Scale(master, label="Set # Seconds Water ON:", font=slider_font,
-from_=0, to=120, orient=HORIZONTAL, length=screen_width, width=slider_width,
+from_=0, to=120, orient=HORIZONTAL, length=slider_length, width=slider_width,
 troughcolor=slider_trough_color, bg=slider_color, fg=slider_text_color,
-bd=slider_border, sliderlength=slider_length, sliderrelief=slider_relief)
+bd=slider_border, sliderlength=slider_width, sliderrelief=slider_relief)
 on.grid(column=1, row=2, columnspan=3)
 
 off = Scale(master, label="Set # Seconds Water OFF:", font=slider_font,
-from_=0, to=30, orient=HORIZONTAL, length=screen_width, width=slider_width,
+from_=0, to=30, orient=HORIZONTAL, length=slider_length, width=slider_width,
 troughcolor=slider_trough_color, bg=slider_color, fg=slider_text_color,
-bd=slider_border, sliderlength=slider_length, sliderrelief=slider_relief)
+bd=slider_border, sliderlength=slider_width, sliderrelief=slider_relief)
 off.grid(column=1, row=3, columnspan=3)
 
 cycle = Scale(master, label="Set # of Plants to Water:", font=slider_font,
-from_=0, to=200, orient=HORIZONTAL, length=screen_width, width=slider_width,
+from_=0, to=200, orient=HORIZONTAL, length=slider_length, width=slider_width,
 troughcolor=slider_trough_color, bg=slider_color, fg=slider_text_color,
-bd=slider_border, sliderlength=slider_length, sliderrelief=slider_relief)
+bd=slider_border, sliderlength=slider_width, sliderrelief=slider_relief)
 cycle.grid(column=1, row=4, columnspan=3)
 
 go = Button(master, text="START", command=start, bg="green3",
