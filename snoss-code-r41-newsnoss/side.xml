@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<side>
+	<userinfo>
+		<image url="**picurl**" height="100" width="100" text="Image unable to be shown" />
+	</userinfo>	
+	<links>
+		<url link="main.php">Home</url>
+		<url link="profile.php">Profiles</url>
+		<url link="friends_list.php">View your Friends</url>
+		<url link="friends_add.php">Add a Friend</url>
+		<url link="message_send.php">Send a Message</url>
+		<url link="signout.php">Signout</url>
+	</links>
+</side>

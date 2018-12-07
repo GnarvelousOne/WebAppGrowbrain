@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<page>
+	<hidden>
+		<title>The Profiles!</title>
+	</hidden>	
+
+	
+	<top>
+		<title>Hello World</title>
+		<subtitle>Welcome to this random website</subtitle>
+	</top>
+	<main>
+		<side url="side.xml" />
+		<content>
+			[br/][br/][br/]
+			Hello World[br/]
+			[b]hi[/b]
+		</content>
+	</main>
+	<bottom>
+		<footer>(c) Me 2007</footer>
+	</bottom>
+</page>

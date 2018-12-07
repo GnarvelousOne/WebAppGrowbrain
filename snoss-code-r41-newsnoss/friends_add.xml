@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<page>
+	<hidden>
+		<title>Snoss</title>
+	</hidden>	
+
+	
+	<top>
+		<title>Snoss Friends</title>
+		<subtitle> - The Social Networking Framework of Choice - </subtitle>
+	</top>
+	<main>
+	
+		<side url="side.xml" />
+
+		<content>
+		[br/][br/][br/]
+		[b]Friends[/b][br/]
+		Add a Friend on Snoss, enter their email address below and we'll ask them:
+		[form method="POST"]
+			Email Address: [input type="text" name="email" /][br /]
+			[input type="submit" value="Ask Friend" /]
+		[/form]
+		</content>
+	</main>
+	<bottom>
+		<footer>(c) Me 2007</footer>
+	</bottom>
+</page>

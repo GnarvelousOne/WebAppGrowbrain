@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<page>
+	<hidden>
+		<title>Snoss</title>
+	</hidden>	
+
+	
+	<top>
+		<title>Snoss Friends</title>
+		<subtitle> - The Social Networking Framework of Choice - </subtitle>
+	</top>
+	<main>
+	
+		<side url="side.xml" />
+
+		<content>
+		[br/][br/][br/]
+		[b]Message[/b][br/]
+		[form method="POST"]
+			To:**maillist**[br/]
+			Type:[select name="type"]
+				[option value="op"]Message[/option]
+				[option value="cp"]Comment[/option]
+			[/select]
+			[br/]
+			Subject: [input type="text" name="subject" /][br /]
+			Message: [textarea name="message"][/textarea][br/]
+			[input type="submit" value="Send" /]
+		[/form]
+		</content>
+	</main>
+	<bottom>
+		<footer>(c) Me 2007</footer>
+	</bottom>
+</page>

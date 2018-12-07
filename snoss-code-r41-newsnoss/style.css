@@ -1,0 +1,12 @@
+div.links{position:absolute;top:120;left:120;width:;z-index:11;}
+a.toplinks{color:#EE4966}
+div.footer{}
+div.userinfo{position:absolute;top:20;left:20;height:100;width:200;}
+span.colin{color: #A5FF23;}
+div.login{text-alignment:center;}
+div.title1{color:#000033;}
+body{background-color:#A5FF23;
+	font-family:verdana;}
+a{color:#3399CC;
+	text-decoration:none;}
+table.msgs{border-spacing: 10px 0px;}

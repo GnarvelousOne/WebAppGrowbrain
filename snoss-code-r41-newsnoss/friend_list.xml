@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<page>
+	<hidden>
+		<title>Friends</title>
+	</hidden>	
+
+	
+	<top>
+		<title>Snoss Friends</title>
+		<subtitle> - The Social Networking Framework of Choice - </subtitle>
+	</top>
+	<main>
+		<side url="side.xml" />
+		<content>
+			[br/][br/][br/]
+			**pending**[br /]
+			**friends**
+		</content>
+	</main>
+	<bottom>
+		<footer>(c) Me 2007</footer>
+	</bottom>
+</page>

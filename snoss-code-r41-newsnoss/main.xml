@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<page>
+	<hidden>
+		<title>Snoss</title>
+	</hidden>	
+
+	
+	<top>
+		<title>Snoss - Social Networking OSS</title>
+		<subtitle> - The Social Networking Framework of Choice - </subtitle>
+	</top>
+	<main>
+		<side url="side.xml" />
+		<content>
+			[br/][br/]
+			[b]Welcome to Snoss **nick**, your UID is **uid**[/b][br/][br/]
+			[u]Messages[/u]:[span class='colin']123456789123456789123456789123456[/span]
+			[br/]
+			**inbox**[br/]
+			[u]Comments[/u]:[span class='colin']123456789123456789123456789123456[/span]
+			[br/]
+			**comments**[br/][br/][br/][br/][br/][br/][br/][br/][br/][br/][i]
+		</content>
+	</main>
+	<bottom>
+		<footer>SNOSS - Social Networking Open Source Software</footer>
+	</bottom>
+</page>

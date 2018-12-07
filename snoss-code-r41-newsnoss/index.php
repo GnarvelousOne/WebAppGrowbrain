@@ -1,0 +1,3 @@
+<?
+header("LOCATION:login.php");
+?>

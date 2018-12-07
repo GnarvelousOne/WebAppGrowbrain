@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<page>
+	<hidden>
+		<title>Snoss</title>
+	</hidden>	
+
+	
+	<top>
+		<title>Snoss Email</title>
+		<subtitle> - The Social Networking Framework of Choice - </subtitle>
+	</top>
+	<main>
+		<side url="side.xml" />
+		<content>
+			**printemail**
+		</content>
+	</main>
+	<bottom>
+		<footer>(c) Me 2007</footer>
+	</bottom>
+</page>
