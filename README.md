@@ -2,7 +2,7 @@
 The Marvelous GrowBrain
 
 
-The Marvelous Growbrain will attempt to commit a great heresey.  We see a problem with the world today in the dastardly dualistic dichotomy between Producer and Consumer.  We will blur this distinction until it fades away.  The MGB empowers people to produce food for themselves and their chosen group.  The group or individual can work directly in the production of their own food, removing the transaction from the marketplace as it stands today.  Your job is now not to earn money for food, your job creates the food directly.
+The Marvelous Growbrain will attempt to commit a great heresy.  We see a problem with the world today in the dastardly dualistic dichotomy between Producer and Consumer.  We will blur this distinction until it fades away.  The MGB empowers people to produce food for themselves and their chosen group.  The group or individual can work directly in the production of their own food, removing the transaction from the marketplace as it stands today.  Your job is now not to earn money for food, your job creates the food directly.
 
 The MGB makes expert farmers out of novices.  Ad-hoc food organizations can spontaneously appear as needed.  The unit monitors and controls all growing conditions, and the user accesses this through a customizable Profile Page.  Expert knowledge of each crop type is provided.  MGB units connect to each other to form virtual co-ops, all coordinated between users and remotely accessible.  Inventory is tracked, web cams allow monitoring.  All voltage-controllable devices are automated.  The garden will run itself, you become an administrator.  The MGB can also function as an air-gapped unit disconnected from the internet, for those remote or clandestine operations...
 
