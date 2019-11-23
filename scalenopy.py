@@ -18,7 +18,7 @@ slider_color = "SteelBlue1"
 slider_trough_color = "steelblue"
 slider_text_color = "black"
 slider_border = 5
-slider_length = 120
+slider_length = int(screen_width)
 slider_relief = RIDGE
 button_width = 39
 button_height =8
@@ -26,7 +26,7 @@ button_border = 3
 button_font = '-weight bold'
 welcome_height = 6
 welcome_width = 136
-welcome_font = "57"
+welcome_font = 16
 welcome_background = "Steelblue3"
 welcome_border = 6
 welcome_relief = RAISED
@@ -47,11 +47,11 @@ def onoffcycle():
     y = float(off.get())
     x = float(on.get())
     #GPIO.output(18, True)
-    print((("Water ON") + str(x)))
+    print((("Water is now ON for ") + str(x) + (" seconds.")))
     t.get()
     time.sleep(x)
     #GPIO.output(18, False)
-    print((("Off") + str(y)))
+    print((("Water is now Off for ") + str(y) + (" seconds.")))
     time.sleep(y)
 
 
@@ -181,21 +181,21 @@ width=welcome_width, height=welcome_height, font=welcome_font, textvariable=t)
 welcome.grid(column=1, row=1, columnspan=3)
 
 on = Scale(master, label="Set # Seconds Water ON:", font=slider_font,
-from_=0, to=120, orient=HORIZONTAL, length=screen_width, width=slider_width,
+from_=0, to=120, orient=HORIZONTAL, length=slider_length, width=slider_width,
 troughcolor=slider_trough_color, bg=slider_color, fg=slider_text_color,
-bd=slider_border, sliderlength=slider_length, sliderrelief=slider_relief)
+bd=slider_border, sliderlength=slider_width, sliderrelief=slider_relief)
 on.grid(column=1, row=2, columnspan=3)
 
 off = Scale(master, label="Set # Seconds Water OFF:", font=slider_font,
-from_=0, to=30, orient=HORIZONTAL, length=screen_width, width=slider_width,
+from_=0, to=30, orient=HORIZONTAL, length=slider_length, width=slider_width,
 troughcolor=slider_trough_color, bg=slider_color, fg=slider_text_color,
-bd=slider_border, sliderlength=slider_length, sliderrelief=slider_relief)
+bd=slider_border, sliderlength=slider_width, sliderrelief=slider_relief)
 off.grid(column=1, row=3, columnspan=3)
 
 cycle = Scale(master, label="Set # of Plants to Water:", font=slider_font,
-from_=0, to=200, orient=HORIZONTAL, length=screen_width, width=slider_width,
+from_=0, to=200, orient=HORIZONTAL, length=slider_length, width=slider_width,
 troughcolor=slider_trough_color, bg=slider_color, fg=slider_text_color,
-bd=slider_border, sliderlength=slider_length, sliderrelief=slider_relief)
+bd=slider_border, sliderlength=slider_width, sliderrelief=slider_relief)
 cycle.grid(column=1, row=4, columnspan=3)
 
 go = Button(master, text="START", command=start, bg="green3",
